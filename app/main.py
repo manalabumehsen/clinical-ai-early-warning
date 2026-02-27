@@ -2,6 +2,10 @@
 Main entry point for Clinical AI Early Warning Platform.
 """
 import streamlit as st
+from app.dashboard import show_dashboard
 
-st.title("Clinical AI Early Warning Platform")
-st.write("Welcome! The system is under construction.")
+st.set_page_config(page_title="Clinical AI Early Warning Platform", layout="wide")
+st.title("💉 Clinical AI Early Warning Platform")
+
+# Call dashboard
+show_dashboard()
