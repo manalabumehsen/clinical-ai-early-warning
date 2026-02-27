@@ -1,6 +1,6 @@
 """
 Dashboard components for Clinical AI Early Warning Platform.
-"""
+""
 import streamlit as st
 
 def show_dashboard():
