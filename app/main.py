@@ -1,6 +1,3 @@
-"""
-Main entry point for Clinical AI Early Warning Platform.
-"""
 import streamlit as st
 from app.dashboard import show_dashboard
 
